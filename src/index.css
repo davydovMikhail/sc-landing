@@ -408,6 +408,7 @@ body {
   margin-top: 32px;
 }
 .girl {
+  position: relative;
   margin-right: 42px;
   display: flex;
   flex-direction: column;
@@ -724,6 +725,77 @@ body {
   display: block;
   position: relative;
   visibility: hidden;
+}
+.badge {
+  display: flex;
+  align-items: center;
+  padding: 12px 32px;
+  border-radius: 12px;
+  border-left: 2px solid var(--Style, #B0FF09);
+  background: var(--342, linear-gradient(92deg, #1A251F 5.53%, #1B1227 97.6%));
+  position: absolute;
+  z-index: 500;
+  @media (max-width: 510px) {
+    padding: 6px 16px;
+  }
+}
+.badge__icon {
+  margin-right: 12px;
+}
+.badge__text {
+  color: var(--w, #FFF);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+.badge__text_span {
+  background: var(--Style, linear-gradient(133deg, #B0FF09 24.47%, #05B8F1 109.92%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.badge__bal {
+  transform: rotate(-3.023deg);
+  top: 63%;
+  left: -17%;
+  @media (max-width: 1370px) {
+    left: -5%;
+  }
+  @media (max-width: 1185px) {
+    top: 52%;
+    left: 2%;
+  }
+  @media (max-width: 456px) {
+    top: 37%;
+  }
+}
+.badge__won {
+  transform: rotate(4.762deg);
+  right: -22%;
+  top: 54%;
+  @media (max-width: 1682px) {
+    right: -10%;
+  }
+  @media (max-width: 1185px) {
+    top: 44%;
+    right: 2%;
+  }
+  @media (max-width: 456px) {
+    top: 28%;
+  }
+}
+.badge__split {
+  right: 4%;
+  top: 62%;
+  @media (max-width: 1185px) {
+    top: 54%;
+    right: 4%;
+  }
+  @media (max-width: 456px) {
+    top: 43%;
+  }
 }
 @media (max-width: 1500px) {
   .header {

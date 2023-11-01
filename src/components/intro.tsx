@@ -2,6 +2,9 @@ import BigLogo from "../img/biglogo.svg";
 import x from "../img/x.svg";
 import tg from "../img/tg.svg";
 import girl from "../img/girl.png";
+import wallet from "../img/wallet.svg";
+import smile from "../img/smile.svg";
+import prize from "../img/prize.svg";
 
 const Intro = () => {
     
@@ -24,6 +27,24 @@ const Intro = () => {
                 </div>
             </div>
             <div className="girl">
+                <div className="badge badge__bal">
+                    <img className="badge__icon" src={wallet} alt="" />
+                    <div className="badge__text">
+                        balance: 100.00 <span className="badge__text_span">$SPLIT</span>
+                    </div>
+                </div>
+                <div className="badge badge__won">
+                    <img className="badge__icon" src={smile} alt="" />
+                    <div className="badge__text">
+                        You won 194.11 <span className="badge__text_span">$SPLIT</span>
+                    </div>
+                </div>
+                <div className="badge badge__split">
+                    <img className="badge__icon" src={prize} alt="" />
+                    <div className="badge__text">
+                        split!
+                    </div>
+                </div>
                 <img  src={girl} className="girl__pic" />
                 <div className="girl__trybuy">
                     <div className="girl__predict">
