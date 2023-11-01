@@ -360,9 +360,20 @@ body {
   display: none;
 }
 .bg-wrapper {
+  display: block;
   max-width: 1920px;
   margin: 0 auto;
   padding-top: 102px;
+  background-image: url('./img/looper.png'), url('./img/cell1.png'), url('./img/cell2.png'), url('./img/cell3.png'), url('./img/cell4.png');
+  background-position: 92% 8%, 8% 7%, right bottom, left 85%, 20% 35%;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  @media (max-width: 1845px) {
+    background-position: 95% 8%, 8% 7%, right bottom, left 85%, 20% 35%;
+  }
+  @media (max-width: 1700px) {
+    background-position: 100% 8%, 8% 7%, right bottom, left 85%, 20% 35%;
+  }
+
 }
 .intro {
   max-width: 1468px;
@@ -732,6 +743,10 @@ body {
   }
   .girl {
     margin-right: 0px;
+  }
+
+  .bg-wrapper {
+    background-position: center 23%, 8% 0%, right bottom, left 85%, 20% 50%;
   }
 }
 @media (max-width: 1184px) {
