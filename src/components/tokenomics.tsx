@@ -7,7 +7,9 @@ import paid from '../img/paid.svg'
 const Tokenomics = () => {
     
     return (
-        <div className="tokenomics">
+      <>
+        <a id="tokenomics" className="anchor" href=""></a>
+        <div className="tokenomics"> 
             <div className="tokenomics__title">
               <img src={blink} alt="blink" className='tokenomics__blink' />
               <div className='tokenomics__text'>
@@ -41,6 +43,7 @@ const Tokenomics = () => {
               </div>
             </div>
           </div>
+      </>
     );
   };
   

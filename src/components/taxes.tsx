@@ -3,6 +3,8 @@ import miniblink from '../img/miniblink.svg'
 const Taxes = () => {
     
     return (
+      <>
+        <a id="taxes" className="anchor" href=""></a>
         <div className="taxes">
             <div className="taxes__item">
               <img className='taxes__blinktop' src={miniblink} alt="miniblink" />
@@ -53,6 +55,7 @@ const Taxes = () => {
               </div>
             </div>
           </div>
+      </>
     );
   };
   

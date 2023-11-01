@@ -720,6 +720,11 @@ body {
   line-height: 24px; /* 150% */
   text-transform: uppercase;
 }
+.anchor {
+  display: block;
+  position: relative;
+  visibility: hidden;
+}
 @media (max-width: 1500px) {
   .header {
     width: 1150px;

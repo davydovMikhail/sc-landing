@@ -72,14 +72,14 @@ const Header = () => {
                   <div className="header__left">
                     <img src={Logo} className="header__logo" />
                     <div className="header__bar">
-                        <a href="" className="header__tab">HOME</a>
-                        <a href="" className="header__tab">TOKENOMICS</a>
-                        <a href="" className="header__tab">TAXES & FEES</a>
-                        <a href="" className="header__tab">
+                        <a href="#intro" className="header__tab">HOME</a>
+                        <a href="#tokenomics" className="header__tab">TOKENOMICS</a>
+                        <a href="#taxes" className="header__tab">TAXES & FEES</a>
+                        <a href="#" className="header__tab">
                             <div style={{marginRight: "5px"}} >TESTNET</div>
                             <img className="header__icon" src={Ext} alt="ext" />
                         </a>
-                        <a href="" className="header__tab">
+                        <a href="#" className="header__tab">
                             <div style={{marginRight: "5px"}} >WHITEPAPER</div>
                             <img className="header__icon" src={Ext} alt="ext" />
                         </a>
@@ -95,12 +95,12 @@ const Header = () => {
                         onOpen={handleIsOpen}
                         onClose={handleIsOpen}
                         styles={styles} right>
-                        <a onClick={closeSideBar} className="menu-item" href="#main">HOME</a>
-                        <a onClick={closeSideBar} className="menu-item" href="#about">TOKENOMICS</a>
-                        <a onClick={closeSideBar} className="menu-item" href="#tokenomics">TAXES & FEES</a>
-                        <a onClick={closeSideBar} className="menu-item" href="#tokenomics">TESTNET</a>
-                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://www.youtube.com/">WHITEPAPER</a>
-                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://www.youtube.com/">TRY TESTNET</a>
+                        <a onClick={closeSideBar} className="menu-item" href="#intro">HOME</a>
+                        <a onClick={closeSideBar} className="menu-item" href="#tokenomics">TOKENOMICS</a>
+                        <a onClick={closeSideBar} className="menu-item" href="#taxes">TAXES & FEES</a>
+                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="#">TESTNET</a>
+                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="#">WHITEPAPER</a>
+                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="#">TRY TESTNET</a>
                         <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://app.uniswap.org/#/swap">BUY TOKENS</a> 
                     </Menu>
                 </div>

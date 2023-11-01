@@ -6,6 +6,8 @@ import girl from "../img/girl.png";
 const Intro = () => {
     
     return (
+        <>
+            <a id="intro" className="anchor" href=""></a>
         <div className="intro">
             <div className="banner">
                 <img src={BigLogo} className="banner__logo" />
@@ -39,6 +41,7 @@ const Intro = () => {
                 </div>
             </div>
         </div>
+        </>
     );
   };
   
