@@ -756,8 +756,8 @@ body {
   background: var(--342, linear-gradient(92deg, #1A251F 5.53%, #1B1227 97.6%));
   position: absolute;
   z-index: 500;
-  @media (max-width: 510px) {
-    padding: 6px 16px;
+  @media (max-width: 665px) {
+    display: none;
   }
 }
 .badge__icon {
