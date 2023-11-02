@@ -758,6 +758,7 @@ body {
   z-index: 500;
   @media (max-width: 665px) {
     display: none;
+    position: relative;
   }
 }
 .badge__icon {
@@ -788,9 +789,6 @@ body {
     top: 52%;
     left: 2%;
   }
-  @media (max-width: 456px) {
-    top: 37%;
-  }
 }
 .badge__won {
   transform: rotate(4.762deg);
@@ -803,9 +801,6 @@ body {
     top: 44%;
     right: 2%;
   }
-  @media (max-width: 456px) {
-    top: 28%;
-  }
 }
 .badge__split {
   right: 4%;
@@ -813,9 +808,6 @@ body {
   @media (max-width: 1185px) {
     top: 54%;
     right: 4%;
-  }
-  @media (max-width: 456px) {
-    top: 43%;
   }
 }
 @media (max-width: 1500px) {
