@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sc-landing/static/css/main.05469ef8.css",
+    "main.css": "/sc-landing/static/css/main.1e78d85f.css",
     "main.js": "/sc-landing/static/js/main.96c4763e.js",
     "static/media/demo.png": "/sc-landing/static/media/demo.385fdd4467425d026a6e.png",
     "static/media/looper.png": "/sc-landing/static/media/looper.6f399904313e6f9d65b6.png",
@@ -63,11 +63,11 @@
     "static/media/miniTG.svg": "/sc-landing/static/media/miniTG.0a6545ece43fdbb90d9a42e338ce1060.svg",
     "static/media/plane.svg": "/sc-landing/static/media/plane.6b04aa19b066aab4e2e9896ecdbc7e28.svg",
     "static/media/ext.svg": "/sc-landing/static/media/ext.7a4f8b5b68325c74812b0b1e57566532.svg",
-    "main.05469ef8.css.map": "/sc-landing/static/css/main.05469ef8.css.map",
+    "main.1e78d85f.css.map": "/sc-landing/static/css/main.1e78d85f.css.map",
     "main.96c4763e.js.map": "/sc-landing/static/js/main.96c4763e.js.map"
   },
   "entrypoints": [
-    "static/css/main.05469ef8.css",
+    "static/css/main.1e78d85f.css",
     "static/js/main.96c4763e.js"
   ]
 }
