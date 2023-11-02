@@ -756,10 +756,6 @@ body {
   background: var(--342, linear-gradient(92deg, #1A251F 5.53%, #1B1227 97.6%));
   position: absolute;
   z-index: 500;
-  @media (max-width: 665px) {
-    display: none;
-    position: relative;
-  }
 }
 .badge__icon {
   margin-right: 12px;
@@ -937,6 +933,10 @@ body {
   }
 }
 @media (max-width: 659px) {
+  .badge {
+    display: none;
+    position: relative;
+  }
   .girl__trybuy {
     display: grid;
     gap: 8px;
