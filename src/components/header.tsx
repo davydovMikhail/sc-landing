@@ -75,19 +75,19 @@ const Header = () => {
                         <a href="#intro" className="header__tab">HOME</a>
                         <a href="#tokenomics" className="header__tab">TOKENOMICS</a>
                         <a href="#taxes" className="header__tab">TAXES & FEES</a>
-                        <a href="#" className="header__tab">
+                        <a href="https://test.split.casino/" target="_blank" className="header__tab">
                             <div style={{marginRight: "5px"}} >TESTNET</div>
                             <img className="header__icon" src={Ext} alt="ext" />
                         </a>
-                        <a href="#" className="header__tab">
+                        <a href="#" target="_blank" className="header__tab">
                             <div style={{marginRight: "5px"}} >WHITEPAPER</div>
                             <img className="header__icon" src={Ext} alt="ext" />
                         </a>
                     </div>
                   </div>
                   <div className="header__right">
-                    <a style={{marginRight: "8px"}} href="" className="button__size button__transparent">TRY TESTNET</a>
-                    <a href="" className="button__size button__style">BUY TOKENS</a>
+                    <a style={{marginRight: "8px"}} href="https://test.split.casino/" target='_blank' className="button__size button__transparent">TRY TESTNET</a>
+                    <a href="" target='_blank' className="button__size button__style">BUY TOKENS</a>
                   </div>
                 <div className='mob-menu'>
                     <Menu
@@ -98,9 +98,9 @@ const Header = () => {
                         <a onClick={closeSideBar} className="menu-item" href="#intro">HOME</a>
                         <a onClick={closeSideBar} className="menu-item" href="#tokenomics">TOKENOMICS</a>
                         <a onClick={closeSideBar} className="menu-item" href="#taxes">TAXES & FEES</a>
-                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="#">TESTNET</a>
+                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://test.split.casino/">TESTNET</a>
                         <a onClick={closeSideBar} className="menu-item" target='_blank' href="#">WHITEPAPER</a>
-                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="#">TRY TESTNET</a>
+                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://test.split.casino/">TRY TESTNET</a>
                         <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://app.uniswap.org/#/swap">BUY TOKENS</a> 
                     </Menu>
                 </div>
