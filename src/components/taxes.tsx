@@ -11,7 +11,7 @@ const Taxes = () => {
               <img className='taxes__blinkbottom' src={miniblink} alt="miniblink" />
               <div className="taxes__text">
                 <div className="taxes__title">
-                  5%
+                  4%
                 </div>
                 <div className="taxes__subtitle">
                   buy
@@ -23,7 +23,7 @@ const Taxes = () => {
               <img className='taxes__blinkbottom' src={miniblink} alt="miniblink" />
               <div className="taxes__text">
                 <div className="taxes__title">
-                  5%
+                  4%
                 </div>
                 <div className="taxes__subtitle">
                   sell

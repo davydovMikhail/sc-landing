@@ -79,7 +79,7 @@ const Header = () => {
                             <div style={{marginRight: "5px"}} >TESTNET</div>
                             <img className="header__icon" src={Ext} alt="ext" />
                         </a>
-                        <a href="#" target="_blank" className="header__tab">
+                        <a href="https://splitgamble.gitbook.io/docs/" target="_blank" className="header__tab">
                             <div style={{marginRight: "5px"}} >WHITEPAPER</div>
                             <img className="header__icon" src={Ext} alt="ext" />
                         </a>
@@ -99,7 +99,7 @@ const Header = () => {
                         <a onClick={closeSideBar} className="menu-item" href="#tokenomics">TOKENOMICS</a>
                         <a onClick={closeSideBar} className="menu-item" href="#taxes">TAXES & FEES</a>
                         <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://test.split.casino/">TESTNET</a>
-                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="#">WHITEPAPER</a>
+                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://splitgamble.gitbook.io/docs/">WHITEPAPER</a>
                         <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://test.split.casino/">TRY TESTNET</a>
                         <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://app.uniswap.org/#/swap">BUY TOKENS</a> 
                     </Menu>
