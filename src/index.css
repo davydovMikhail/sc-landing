@@ -361,7 +361,7 @@ body {
   padding: 16px 32px;
   color: #FFF;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 16.667px; /* 92.593% */
   text-transform: uppercase;
 }
@@ -386,15 +386,14 @@ body {
   margin: 0 auto;
   padding-top: 102px;
   background-image: url('./img/looper.png'), url('./img/cell1.png'), url('./img/cell2.png'), url('./img/cell3.png'), url('./img/cell4.png');
-  background-position: 92% 8%, 8% 7%, right bottom, left 85%, 20% 35%;
+  background-position: 116% 3%, 8% 7%, right bottom, left 85%, 20% 35%;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   @media (max-width: 1845px) {
-    background-position: 95% 8%, 8% 7%, right bottom, left 85%, 20% 35%;
+    background-position: 122% 4%, 8% 7%, right bottom, left 85%, 20% 35%;
   }
   @media (max-width: 1700px) {
-    background-position: 100% 8%, 8% 7%, right bottom, left 85%, 20% 35%;
+    background-position: 160% 2%, 8% 7%, right bottom, left 85%, 20% 35%;
   }
-
 }
 .intro {
   max-width: 1468px;
@@ -501,7 +500,7 @@ body {
   padding: 16px 32px;
   color: #FFF;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 16.667px;
   text-transform: uppercase;
 }
@@ -517,7 +516,7 @@ body {
   padding: 16px 32px;
   color: #FFF;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 16.667px; /* 92.593% */
   text-transform: uppercase;
   background: var(--1, linear-gradient(93deg, #AA1327 13.59%, #FF465E 87.82%));
@@ -621,7 +620,7 @@ body {
   padding: 16px 32px;
   color: #FFF;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 16.667px; /* 92.593% */
   text-transform: uppercase;
 }
