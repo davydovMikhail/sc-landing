@@ -884,6 +884,7 @@ body {
   }
   .demo {
     margin-top: 86px;
+    background-image: url('./img/demo2.png');
     height: 800px;
   }
   .demo__buttons {
